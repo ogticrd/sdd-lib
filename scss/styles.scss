@@ -1,3 +1,11 @@
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import "./node_modules/remixicon/fonts/remixicon.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;500;700&family=Roboto:wght@500;700&display=swap');
+
+.header{
+    height: 82px;
+
+    &-dark{
+        background-color: #003876;
+    }
+}
